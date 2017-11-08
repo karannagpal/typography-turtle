@@ -16,6 +16,10 @@ def draw_dot():
     dot = turtle.Turtle()
     dot.speed(8)
     dot.color("orange")
+
+    for dota in range(36):
+        dot.forward(0.5)
+        dot.left(10)
     return
 
 

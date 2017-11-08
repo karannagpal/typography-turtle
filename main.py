@@ -2,6 +2,7 @@ import turtle
 import A2M
 import N2Z
 import SP
+import engine
 
 window = turtle.Screen()
 window.bgcolor("#222")
@@ -9,10 +10,11 @@ window.bgcolor("#222")
 # least count of radius of curve is 10'
 
 
-A2M.draw_k()
-A2M.draw_a()
-N2Z.draw_r()
-A2M.draw_a()
-N2Z.draw_n()
+# A2M.draw_k()
+# A2M.draw_a()
+# N2Z.draw_r()
+# A2M.draw_a()
+N2Z.draw_o()
+SP.draw_dot()
 
 window.exitonclick()
