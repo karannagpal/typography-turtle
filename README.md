@@ -15,4 +15,9 @@
 * User runs the program and enters his/her name. the program then separates each character from the name and calls turtle function for every character. 
 * A new window opens with dark-grey background and turtle drawing letters, symbols and spaces one by one. 
 * The Speed, fill and color of turtle can be controlled at back-end. 
-* Spaces present in between any two characters, and extra spaces present in between two words, are taken care of.   
+* Spaces present in between any two characters, and extra spaces present in between two words, are taken care of.
+
+## Stats for v0.6
+* 5 total python files (roughly 11KB)
+* around 30 functions
+* 700+ lines of code (including comments & blank spaces)

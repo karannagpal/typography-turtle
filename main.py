@@ -10,7 +10,6 @@ pro.display(name)
 
 '''
 limitations:
-
 program is limited to drawing
 15 characters including spaces
 
@@ -19,5 +18,3 @@ space, dash and dot
 
 alphabets are drawn in uppercase only
 '''
-
-
