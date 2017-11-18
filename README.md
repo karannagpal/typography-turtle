@@ -1,4 +1,4 @@
-# Name Drawing Turtle
+# Typography turtle
 
 ### This project is under develoment
 
@@ -21,3 +21,10 @@
 * 5 total python files (roughly 11KB)
 * around 30 functions
 * 700+ lines of code (including comments & blank spaces)
+
+## Stats for v0.7
+* name of the project is now Typography turtle
+* 5 total python files (roughly 13.6 KB)
+* 15 alphabets are working
+* around 30 functions
+* 800+ lines of code (including comments & blank spaces)

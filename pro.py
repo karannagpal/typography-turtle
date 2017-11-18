@@ -40,7 +40,7 @@ def display(name):
             offset = offset + 80
         if i == 'i':
             A2M.draw_i(offset)
-            offset = offset + 80
+            offset = offset + 30
         if i == 'j':
             A2M.draw_j(offset)
             offset = offset + 80
@@ -52,7 +52,7 @@ def display(name):
             offset = offset + 80
         if i == 'm':
             A2M.draw_m(offset)
-            offset = offset + 80
+            offset = offset + 100
 
         if i == 'n':
             N2Z.draw_n(offset)
