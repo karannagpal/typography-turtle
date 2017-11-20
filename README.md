@@ -18,7 +18,7 @@
 * Spaces present in between any two characters, and extra spaces present in between two words, are taken care of.
 
 ## Stats for v0.6
-* 5 total python files (roughly 11KB)
+* 5 total python files (roughly 11 KB)
 * around 30 functions
 * 700+ lines of code (including comments & blank spaces)
 
@@ -28,3 +28,9 @@
 * 15 alphabets are working
 * around 30 functions
 * 800+ lines of code (including comments & blank spaces)
+
+## Stats for v0.8
+* 5 total python files (roughly 16 KB)
+* 20+ alphabets and special characters are working
+* around 30 functions
+* 950+ lines of code (including comments & blank spaces)

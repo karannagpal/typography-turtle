@@ -83,7 +83,7 @@ def display(name):
             offset = offset + 80
         if i == 'w':
             N2Z.draw_w(offset)
-            offset = offset + 80
+            offset = offset + 120
         if i == 'x':
             N2Z.draw_x(offset)
             offset = offset + 80

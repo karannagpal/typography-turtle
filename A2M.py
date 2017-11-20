@@ -26,24 +26,32 @@ def draw_b(offset):
     # draw b shape
     b = turtle.Turtle()
     b.speed(8)
-    b.color("yellow")
+    b.color("green")
 
     b.up()
     b.forward(offset)
     b.down()
 
+    # check
+    for ba in range(2):
+        b.forward(60)
+        b.left(90)
+        b.forward(100)
+        b.left(90)
+    b.color('yellow')
+
     b.left(90)
     b.forward(100)
     b.right(90)
-    b.forward(20)
-    for ba in range(18):
-        b.forward(4.3)
-        b.right(10)
-    b.forward(22)
-    b.right(180)
     b.forward(25)
     for ba in range(18):
-        b.forward(4.4)
+        b.forward(4.35)
+        b.right(10)
+    b.forward(27)
+    b.right(180)
+    b.forward(27)
+    for ba in range(18):
+        b.forward(4.37)
         b.right(10)
     b.forward(32)
 
@@ -307,7 +315,7 @@ def draw_k(offset):
 def draw_l(offset):
     # drawing alphabet l
     l = turtle.Turtle()
-    l.speed(1)
+    l.speed(5)
     l.color("lime")
 
     l.up()
