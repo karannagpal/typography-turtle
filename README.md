@@ -35,11 +35,15 @@
 * around 30 functions
 * 950+ lines of code (including comments & blank spaces)
 
-## Stats for v0.9
+## Stats for v0.9 (beta release)
 * 6 total python files (around 22 KB)
 * Added - Numbers can also be drawn now
 * All alphabets are working
 * Total number of functions: 40
 * 1300+ lines of code (including comments and blank spaces)
 
-## Stats for v0.99 (beta release)
+## Stats for v1.0 (beta release)
+* Optimised code
+* 6 total python files (around 21 KB)
+* All alphabets, numbers and special characters tested
+* approx 1150 lines of code (including comments and blank spaces)

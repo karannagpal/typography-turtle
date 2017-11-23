@@ -9,7 +9,7 @@ def display(name):
     window = turtle.Screen()
     window.bgcolor("#222")
 
-    offset = 0 - (len(name) * 35)
+    offset = 0 - (len(name) * 40)
 
     name = name.lower()
 
@@ -137,3 +137,5 @@ def display(name):
             offset = offset + 80
 
     window.exitonclick()
+
+    return

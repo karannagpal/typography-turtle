@@ -5,18 +5,17 @@ def draw_a(offset):
     # drawing alphabet a
     a = turtle.Turtle()
     a.speed(5)
-    a.color("pink")
-
+    a.color("yellow")
     a.up()
     a.forward(offset)
     a.down()
 
     a.left(73.5)
     a.forward(103)
-    a.right(2*73.5)
+    a.right(147)
     a.forward(103)
     a.backward(40)
-    a.right(180-73.5)
+    a.right(106.5)
     a.forward(37)
 
     a.hideturtle()
@@ -26,19 +25,10 @@ def draw_b(offset):
     # draw b shape
     b = turtle.Turtle()
     b.speed(8)
-    b.color("green")
-
+    b.color("pink")
     b.up()
     b.forward(offset)
     b.down()
-
-    # check
-    for ba in range(2):
-        b.forward(60)
-        b.left(90)
-        b.forward(100)
-        b.left(90)
-    b.color('yellow')
 
     b.left(90)
     b.forward(100)
@@ -62,8 +52,7 @@ def draw_c(offset):
     # drawing alphabet c
     c = turtle.Turtle()
     c.speed(8)
-    c.color("white")
-
+    c.color("cyan")
     c.up()
     c.forward(offset)
     c.down()
@@ -93,8 +82,7 @@ def draw_d(offset):
     # drawing alphabet d
     d = turtle.Turtle()
     d.speed(5)
-    d.color("wheat")
-
+    d.color("white")
     d.up()
     d.forward(offset)
     d.down()
@@ -119,8 +107,7 @@ def draw_e(offset):
     # drawing alphabet e
     e = turtle.Turtle()
     e.speed(5)
-    e.color("lime")
-
+    e.color("orange")
     e.up()
     e.forward(offset)
     e.down()
@@ -147,8 +134,7 @@ def draw_f(offset):
     # drawing alphabet f
     f = turtle.Turtle()
     f.speed(5)
-    f.color("lightblue")
-
+    f.color("lime")
     f.up()
     f.forward(offset)
     f.down()
@@ -161,7 +147,7 @@ def draw_f(offset):
     f.right(90)
     f.forward(50)
     f.left(90)
-    f.forward(45)
+    f.forward(50)
 
     f.hideturtle()
 
@@ -169,8 +155,7 @@ def draw_f(offset):
 def draw_g(offset):
     g = turtle.Turtle()
     g.speed(9)
-    g.color('orange')
-
+    g.color('pink')
     g.up()
     g.forward(offset)
     g.down()
@@ -218,8 +203,7 @@ def draw_h(offset):
     # drawing alphabet h
     h = turtle.Turtle()
     h.speed(2)
-    h.color("lime")
-
+    h.color("cyan")
     h.up()
     h.forward(offset)
     h.down()
@@ -241,17 +225,13 @@ def draw_i(offset):
     i = turtle.Turtle()
     i.speed(5)
     i.color("yellow")
-
     i.up()
     i.forward(offset)
-
-
     i.forward(5)
     i.down()
 
     i.left(90)
     i.forward(100)
-
     i.hideturtle()
 
 
@@ -260,18 +240,13 @@ def draw_j(offset):
     j = turtle.Turtle()
     j.speed(5)
     j.color("white")
-
     j.up()
     j.forward(offset)
-    j.down()
-
-    j.left(90)
-
-    j.up()
     j.forward(100)
     j.right(90)
     j.forward(60)
     j.down()
+
     j.right(90)
     j.forward(68)
     for ja in range(18):
@@ -286,8 +261,7 @@ def draw_k(offset):
     # drawing alphabet z
     k = turtle.Turtle()
     k.speed(8)
-    k.color("lime")
-
+    k.color("cyan")
     k.up()
     k.forward(offset)
     k.down()
@@ -316,8 +290,7 @@ def draw_l(offset):
     # drawing alphabet l
     l = turtle.Turtle()
     l.speed(5)
-    l.color("cyan")
-
+    l.color("pink")
     l.up()
     l.forward(offset)
     l.down()
@@ -336,8 +309,7 @@ def draw_m(offset):
     # drawing alphabet m
     m = turtle.Turtle()
     m.speed(5)
-    m.color("pink")
-
+    m.color("yellow")
     m.up()
     m.forward(offset)
     m.down()
@@ -350,6 +322,5 @@ def draw_m(offset):
     m.forward(80)
     m.right(150)
     m.forward(100)
-
     m.hideturtle()
     return

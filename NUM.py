@@ -7,7 +7,6 @@ def draw_1(offset):
     on = turtle.Turtle()
     on.speed(5)
     on.color("white")
-
     on.up()
     on.forward(offset)
     on.down()
@@ -30,7 +29,6 @@ def draw_2(offset):
     tw = turtle.Turtle()
     tw.speed(5)
     tw.color("lime")
-
     tw.up()
     tw.forward(offset)
     tw.down()
@@ -59,7 +57,6 @@ def draw_3(offset):
     th = turtle.Turtle()
     th.speed(5)
     th.color("cyan")
-
     th.up()
     th.forward(offset)
     th.down()
@@ -89,7 +86,6 @@ def draw_4(offset):
     fo = turtle.Turtle()
     fo.speed(5)
     fo.color("orange")
-
     fo.up()
     fo.forward(offset)
     fo.down()
@@ -114,7 +110,6 @@ def draw_5(offset):
     fi = turtle.Turtle()
     fi.speed(5)
     fi.color("yellow")
-
     fi.up()
     fi.forward(offset)
     fi.down()
@@ -144,7 +139,6 @@ def draw_6(offset):
     si = turtle.Turtle()
     si.speed(5)
     si.color("white")
-
     si.up()
     si.forward(offset)
     si.down()
@@ -176,7 +170,6 @@ def draw_7(offset):
     se = turtle.Turtle()
     se.speed(5)
     se.color("lime")
-
     se.up()
     se.forward(offset)
     se.down()
@@ -199,7 +192,6 @@ def draw_8(offset):
     ei = turtle.Turtle()
     ei.speed(5)
     ei.color("cyan")
-
     ei.up()
     ei.forward(offset)
     ei.down()
@@ -226,7 +218,6 @@ def draw_9(offset):
     ni = turtle.Turtle()
     ni.speed(5)
     ni.color("pink")
-
     ni.up()
     ni.forward(offset)
     ni.down()
@@ -256,7 +247,6 @@ def draw_0(offset):
     ze = turtle.Turtle()
     ze.speed(5)
     ze.color("orange")
-
     ze.up()
     ze.forward(offset)
     ze.down()
@@ -272,4 +262,3 @@ def draw_0(offset):
 
     ze.hideturtle()
     return
-

@@ -17,7 +17,6 @@ def draw_dot(offset):
     dot = turtle.Turtle()
     dot.speed(8)
     dot.color("orange")
-
     dot.up()
     dot.forward(offset)
     dot.down()
@@ -34,7 +33,6 @@ def draw_dash(offset):
     dash = turtle.Turtle()
     dash.speed(8)
     dash.color("yellow")
-
     dash.up()
     dash.forward(offset)
     dash.down()
