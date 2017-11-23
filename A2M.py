@@ -316,7 +316,7 @@ def draw_l(offset):
     # drawing alphabet l
     l = turtle.Turtle()
     l.speed(5)
-    l.color("lime")
+    l.color("cyan")
 
     l.up()
     l.forward(offset)
@@ -336,7 +336,7 @@ def draw_m(offset):
     # drawing alphabet m
     m = turtle.Turtle()
     m.speed(5)
-    m.color("lime")
+    m.color("pink")
 
     m.up()
     m.forward(offset)

@@ -23,7 +23,7 @@ def draw_dot(offset):
     dot.down()
 
     for a_dot in range(36):
-        dot.forward(0.3)
+        dot.forward(0.7)
         dot.left(10)
 
     dot.hideturtle()

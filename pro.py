@@ -2,17 +2,18 @@ import turtle
 import A2M
 import N2Z
 import SP
+import NUM
 
 
 def display(name):
     window = turtle.Screen()
     window.bgcolor("#222")
 
-    offset = 0 - (len(name) * 30)
+    offset = 0 - (len(name) * 35)
 
     name = name.lower()
 
-    # place offset variable in each function's argument
+    # offset variable in each function's argument
     for i in name:
         if i == 'a':
             A2M.draw_a(offset)
@@ -40,7 +41,7 @@ def display(name):
             offset = offset + 80
         if i == 'i':
             A2M.draw_i(offset)
-            offset = offset + 30
+            offset = offset + 40
         if i == 'j':
             A2M.draw_j(offset)
             offset = offset + 80
@@ -99,9 +100,40 @@ def display(name):
             offset = offset + 60
         if i == '.':
             SP.draw_dot(offset)
-            offset = offset + 10
+            offset = offset + 20
         if i == '-':
             SP.draw_dash(offset)
+            offset = offset + 80
+
+        if i == '1':
+            NUM.draw_1(offset)
+            offset = offset + 40
+        if i == '2':
+            NUM.draw_2(offset)
+            offset = offset + 80
+        if i == '3':
+            NUM.draw_3(offset)
+            offset = offset + 80
+        if i == '4':
+            NUM.draw_4(offset)
+            offset = offset + 80
+        if i == '5':
+            NUM.draw_5(offset)
+            offset = offset + 80
+        if i == '6':
+            NUM.draw_6(offset)
+            offset = offset + 80
+        if i == '7':
+            NUM.draw_7(offset)
+            offset = offset + 80
+        if i == '8':
+            NUM.draw_8(offset)
+            offset = offset + 80
+        if i == '9':
+            NUM.draw_9(offset)
+            offset = offset + 80
+        if i == '0':
+            NUM.draw_0(offset)
             offset = offset + 80
 
     window.exitonclick()
