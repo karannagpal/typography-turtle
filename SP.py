@@ -3,7 +3,7 @@ import turtle
 
 def draw_space(offset):
     space = turtle.Turtle()
-    space.speed(8)
+    space.speed(4)
 
     space.up()
     space.forward(offset + 40)
@@ -15,7 +15,7 @@ def draw_space(offset):
 
 def draw_dot(offset):
     dot = turtle.Turtle()
-    dot.speed(8)
+    dot.speed(4)
     dot.color("orange")
     dot.up()
     dot.forward(offset)
@@ -31,7 +31,7 @@ def draw_dot(offset):
 
 def draw_dash(offset):
     dash = turtle.Turtle()
-    dash.speed(8)
+    dash.speed(4)
     dash.color("yellow")
     dash.up()
     dash.forward(offset)

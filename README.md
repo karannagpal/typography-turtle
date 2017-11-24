@@ -44,6 +44,6 @@
 
 ## Stats for v1.0 (beta release)
 * Optimised code
-* 6 total python files (around 21 KB)
+* 6 total python files (around 20 KB)
 * All alphabets, numbers and special characters tested
 * approx 1150 lines of code (including comments and blank spaces)

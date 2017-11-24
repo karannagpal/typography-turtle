@@ -1,6 +1,6 @@
 import pro
 
-name = str(input("Enter your name: "))
+name = str(input("Feed input: "))
 
 pro.display(name)
 
@@ -12,6 +12,9 @@ pro.display(name)
 limitations:
 program is limited to drawing
 15 characters including spaces
+
+alphabets, numbers, special 
+characters can be drawn
 
 special characters include
 space, dash and dot

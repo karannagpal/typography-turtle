@@ -53,7 +53,7 @@ def draw_o(offset):
 def draw_p(offset):
     # draws alphabet p
     p = turtle.Turtle()
-    p.speed(5)
+    p.speed(4)
     p.color('cyan')
     p.up()
     p.forward(offset)
@@ -75,7 +75,7 @@ def draw_p(offset):
 def draw_q(offset):
     # draws alphabet q
     q = turtle.Turtle()
-    q.speed(5)
+    q.speed(4)
     q.color('yellow')
     q.up()
     q.forward(offset)
@@ -116,7 +116,7 @@ def draw_q(offset):
 def draw_r(offset):
     # draws alphabet r
     r = turtle.Turtle()
-    r.speed(5)
+    r.speed(4)
     r.color('orange')
     r.up()
     r.forward(offset)
@@ -144,7 +144,7 @@ def draw_r(offset):
 def draw_s(offset):
     # draws alphabet s
     s = turtle.Turtle()
-    s.speed(5)
+    s.speed(4)
     s.color('lime')
     s.up()
     s.forward(offset)
@@ -203,7 +203,7 @@ def draw_s(offset):
 def draw_t(offset):
     # draws alphabet p
     t = turtle.Turtle()
-    t.speed(5)
+    t.speed(4)
     t.color('pink')
     t.up()
     t.forward(offset)
@@ -226,7 +226,7 @@ def draw_t(offset):
 def draw_u(offset):
     # draws alphabet p
     u = turtle.Turtle()
-    u.speed(5)
+    u.speed(4)
     u.color('white')
     u.up()
     u.forward(offset)
@@ -258,7 +258,7 @@ def draw_u(offset):
 def draw_v(offset):
     # draws alphabet v
     v = turtle.Turtle()
-    v.speed(5)
+    v.speed(4)
     v.color('cyan')
     v.up()
     v.forward(offset)
@@ -308,7 +308,7 @@ def draw_w(offset):
 def draw_x(offset):
     # draws alphabet x
     x = turtle.Turtle()
-    x.speed(5)
+    x.speed(4)
     x.color('orange')
     x.up()
     x.forward(offset)
@@ -330,7 +330,7 @@ def draw_x(offset):
 def draw_y(offset):
     # draws alphabet y
     y = turtle.Turtle()
-    y.speed(5)
+    y.speed(4)
     y.color('lime')
     y.up()
     y.forward(offset)

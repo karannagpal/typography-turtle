@@ -7,6 +7,7 @@ import NUM
 
 def display(name):
     window = turtle.Screen()
+    window.screensize(1300, 500)
     window.bgcolor("#222")
 
     offset = 0 - (len(name) * 40)
